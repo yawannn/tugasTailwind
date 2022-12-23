@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>document.documentElement.classList.add('js')</script>
+    <title>Document</title>
+</head>
+
+<body class="bg-gradient-to-r from-gray-700 via-gray-900 to-black">
+    <div class="text-center font-medium text-lg text-indigo-100 py-4 tracking-wide bg-gradient-to-r from-gray-00 via-gray-700 to-black">
+        Introduction.com
+    </div>
+    <section class="relative bg-[url(./asset/fahru.png)] bg-cover bg-center bg-no-repeat">
+        <div class="absolute inset-0 bg-white/75 sm:bg-transparent sm:bg-gradient-to-r sm:from-white/95 sm:to-white/25"></div>
+        <div class="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8">
+            <div class="max-w-xl text-center sm:text-left">
+                <h1 id="intro" class="text-xl md:text-3xl p-2 text-black tracking-loose">Hi! <button
+                    class="animate-pulse" id="button" onclick="myFunction();remove(this);"
+                    onselect="">___</button>
+                <p class="inline-block" id="demo"></p>, I'm</h1>
+                <h2 class="text-3xl md:text-5xl leading-relaxed md:leading-snug mb-2">Fahru Setiawan Iskandar</h2>
+                <p class="text-sm md:text-base text-black mb-4">Salam kenal ya, saya adalah seorang mahasiswa <a
+                    class="text-black duration-300 hover:text-blue-300" href="https://ub.ac.id/">Universitas
+                    Brawijaya</a>, sekarang berada di semester ke-3 di Program Studi <a
+                    class="text-black duration-300 hover:text-blue-300"
+                    href="https://filkom.ub.ac.id/s1-pti/">Pendidikan Teknologi Informasi</a> dengan NIM 215150600111026
+                <span id="dots">...</span>
+                <span id="more" class="hidden">. Saya berasal dari Kota Bima, Nusa Tenggara Barat. Sekarang saya
+                    berumur 20 tahun dengan tanggal kelahiran 18 Agustus 2002, Selama saya 3 tahun di
+                    Universitas Brawijaya, saya sudah melakukan sejumlah kegiatan dan memiliki beberapa hobi,
+                    penasaran? scroll kebawah
+                    <span>
+                </p>
+                <button onclick="toggleText()" id="rdm" class="mt-3 px-5 py-2 bg-sky-300 text-white duration-300 rounded-lg hover:bg-sky-500">Lanjut Membaca
+                </button>
+            </div>
+        </div>
+    </section>
+    <section class="text-white my-24 md:my-36 delay-[300ms] duration-[600ms] taos:translate-y-[200px] taos:opacity-0"
+        data-taos-offset="100">
+        <h1 class="text-xl md:text-3xl p-2 text-sky-300 tracking-loose text-center">Pengalaman & Hobi Saya</h1>
+        <div class="delay-[300ms] duration-[600ms] taos:translate-x-[-200px] taos:opacity-0" data-taos-offset="400">
+            <h1 id="lomba" class="text-2xl text-center text-sky-300">Lomba</h1>
+            <div class="container mx-auto flex flex-col items-center pt-16 pb-8 delay-[300ms] duration-[600ms] taos:translate-x-[-200px] taos:opacity-0"
+                data-taos-offset="200">
+                <div class="flex md:flex-row w-full">
+                    <div class="w-1/5 text-center items-center">
+                        1
+                    </div>
+                    <div class="w-3/5">
+                        <p class="font-normal ">Juara 2 PKM-RE</p>
+                        <p class="font-thin">(Oktober 2021)</p>
+                        <p class="font-light">Meraih Juara 2 PKM di PKM MABA Filkom tahun 2021 dengan artikel berjudul
+                            "Pemanfaatan Biji Apel sebagai Pengganti Sianida"</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container mx-auto flex flex-col md:flex-col items-center pb-16 delay-[300ms] duration-[600ms] taos:translate-x-[-200px] taos:opacity-0"
+                data-taos-offset="200">
+                <div class="flex md:flex-row w-full">
+                    <div class="w-1/5 text-center items-center">
+                        2
+                    </div>
+                    <div class="w-3/5">
+                        <p class="font-normal">Juara 2 Sayembara Desain Merch Filkom</p>
+                        <p class="font-thin">(April 2021)</p>
+                        <p class="font-light">Mendesain baju Merchfilkom dengan judul desain "One Name"</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="delay-[300ms] duration-[600ms] taos:translate-x-[-200px] taos:opacity-0" data-taos-offset="200">
+            <h1 id="org" class="text-2xl text-center text-sky-300">Organisasi & Kepanitiaan</h1>
+            <div class="container mx-auto flex flex-col md:flex-col items-center pt-16 pb-8 delay-[300ms] duration-[600ms] taos:translate-x-[-200px] taos:opacity-0"
+                data-taos-offset="200">
+                <div class="flex md:flex-row w-full">
+                    <div class="w-1/5 text-center items-center">
+                        1
+                    </div>
+                    <div class="w-3/5">
+                        <p class="font-normal ">Staff Madya PSDM KBMPTI</p>
+                        <p class="font-thin">(Januari 2022-Sekarang)</p>
+                        <p class="font-light">Menjadi Penanggung Jawab Program Kerja Dies Natalis Program Studi
+                            (INFINITE), serta membantu Program Kerja KBMPTI lainnya, seperti Krida Program Studi
+                            (GENESIS), dan Lomba Nasional (EDUACTION)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container mx-auto flex flex-col md:flex-col items-center pb-8 delay-[300ms] duration-[600ms] taos:translate-x-[-200px] taos:opacity-0"
+                data-taos-offset="200">
+                <div class="flex md:flex-row w-full">
+                    <div class="w-1/5 text-center items-center">
+                        2
+                    </div>
+                    <div class="w-3/5">
+                        <p class="font-normal ">Staff Event Krida Prodi (GENESIS)</p>
+                        <p class="font-thin">(Mei 2022-November 2022)</p>
+                        <p class="font-light">Menyusun Konsep, Teknis, serta Mengawasi jalannya Acara agar sesuai dengan
+                            yang direncanakan</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container mx-auto flex flex-col md:flex-col items-center pb-8 delay-[300ms] duration-[600ms] taos:translate-x-[-200px] taos:opacity-0"
+                data-taos-offset="200">
+                <div class="flex md:flex-row w-full">
+                    <div class="w-1/5 text-center items-center">
+                        3
+                    </div>
+                    <div class="w-3/5">
+                        <p class="font-normal">Staff DDM LKMM-TM FILKOM</p>
+                        <p class="font-thin">(Juni 2022-Oktober 2022)</p>
+                        <p class="font-light">Mendesain, Mengedit Story, serta Membuat Logo untuk LKMM-TM yang
+                            bertemakan "Tactful"</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container mx-auto flex flex-col md:flex-col items-center pb-8 delay-[300ms] duration-[600ms] taos:translate-x-[-200px] taos:opacity-0"
+                data-taos-offset="200">
+                <div class="flex md:flex-row w-full">
+                    <div class="w-1/5 text-center items-center">
+                        4
+                    </div>
+                    <div class="w-3/5">
+                        <p class="font-normal">Staff DDM EDUACTION</p>
+                        <p class="font-thin">(Juni 2022-November 2022)</p>
+                        <p class="font-light">Mendesain, Mengedit Story serta Feed, serta Membuat Logo untuk EDUACTION
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="container mx-auto flex flex-col md:flex-col items-center pb-8 delay-[300ms] duration-[600ms] taos:translate-x-[-200px] taos:opacity-0"
+                data-taos-offset="200">
+                <div class="flex md:flex-row w-full">
+                    <div class="w-1/5 text-center items-center">
+                        5
+                    </div>
+                    <div class="w-3/5">
+                        <p class="font-normal">Ketua Pelaksana INFINITE</p>
+                        <p class="font-thin">(Mei 2022-November 2022)</p>
+                        <p class="font-light">Mengkoordinir, Mengontrol, serta Membantu 60+ Orang dari berbagai divisi
+                            dengan total jumlah peserta 400+ dalam rangka merayakan Ulang Tahun Prodi</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pb-20 delay-[300ms] duration-[600ms] taos:translate-x-[-200px] taos:opacity-0"
+            data-taos-offset="200">
+            <h1 id="hobi" class="text-2xl text-center text-sky-300">Hobi</h1>
+            <div class="container mx-auto flex flex-col md:flex-row items-center pt-16 pb-8 delay-[300ms] duration-[600ms] taos:translate-x-[-200px] taos:opacity-0"
+                data-taos-offset="200">
+                <div class="flex md:flex-row w-full">
+                    <div class="w-1/5 text-center items-center">
+                        1
+                    </div>
+                    <div class="w-3/5">
+                        <p class="font-normal">Graphic Desain</p>
+                        <p class="font-light">Saya memiliki minat di bidang Graphic Desain, mendesain sesuatu apabila
+                            saya merasa bosan</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container mx-auto flex flex-col md:flex-row items-center pb-8 delay-[300ms] duration-[600ms] taos:translate-x-[-200px] taos:opacity-0"
+                data-taos-offset="200">
+                <div class="flex md:flex-row w-full">
+                    <div class="w-1/5 text-center items-center">
+                        2
+                    </div>
+                    <div class="w-3/5">
+                        <p class="font-normal">Motion Design</p>
+                        <p class="font-light">Hobi yang baru saja saya lakukan di masa perkuliahan, tepatnya pada awal
+                            tahun 2022, dimana saya mempelajari motion design untuk membantu menyelesaikan tugas Program
+                            kerja apabila dibutuhkan</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container mx-auto flex flex-col md:flex-row items-center pb-16 delay-[300ms] duration-[600ms] taos:translate-x-[-200px] taos:opacity-0"
+                data-taos-offset="200">
+                <div class="flex md:flex-row w-full">
+                    <div class="w-1/5 text-center items-center">
+                        3
+                    </div>
+                    <div class="w-3/5">
+                        <p class="font-normal">Mendengar & Produce Lagu</p>
+                        <p class="font-light">Dari hobi saya yang awalnya Mendengar musik, saya penasaran bagaimana
+                            sebuah musik dibuat dan bagaimana cara mereka membuat musik yang senang didengar oleh orang
+                            lain, membawa saya ke hobi baru, yaitu Producing</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <p class="text-2xl font-bold text-white text-center mb-36 delay-[300ms] duration-[600ms] taos:translate-y-[200px] taos:opacity-0"
+        data-taos-offset="100">
+        Sekian dan Terima Kasih Banyak
+    </p>
+    <footer class="bg-gray-100 w-full h-full flex flex-row rounded-t-xl">
+        <div class="w-1/2 md:w-3/4 pl-8 p-4 flex flex-col">
+            <p class="text-lg font-semibold font-sans">Content Table</p>
+            <a href="#intro">Perkenalan</a>
+            <a href="#lomba">Lomba</a>
+            <a href="#org">Organisasi & Kepanitiaan</a>
+            <a href="#hobi">Hobi</a>
+        </div>
+        <div class="w-1/2 md:w-1/4 flex flex-col pt-2 pl-8">
+            <div class="pb-1 pt-2 text-lg font-semibold font-sans">
+                Kontak Saya
+            </div>
+            <div>
+                <img class="inline-block w-6 h-6" src="./asset/Secured Letter.png" alt="e-mail">
+                <a href="mailto: fahrusetya1@gmail.com">E-Mail</a>
+            </div>
+            <div>
+                <img class="inline-block w-6 h-6" src="./asset/Instagram.png" alt="insta">
+                <a href="https://www.instagram.com/fqhru">Instagram</a>
+            </div>
+            <div>
+                <img class="inline-block w-6 h-6" src="./asset/LinkedIn.png" alt="linkedin">
+                <a href="https://www.linkedin.com/in/fahru-setiawan-iskandar-81320a216/">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/taos@1.0.2/dist/taos.js"></script>
+</body>
+<script>
+    function myFunction() {
+        let text;
+        let person = prompt("Masukkan nama anda:");
+        if (person == null || person == "") {
+            text = "Unnamed";
+        } else {
+            text = person;
+        }
+        document.getElementById("demo").innerHTML = text;
+    }
+    function remove(elem) {
+        elem.parentNode.removeChild(elem);
+    }
+    function toggleText() {
+        var dots = document.getElementById("dots");
+        var moreText = document.getElementById("more");
+        var button = document.getElementById("rdm");
+
+        if (dots.classList.contains("hidden")) {
+            dots.classList.remove("hidden");
+            moreText.classList.add("hidden");
+            button.innerHTML = "Read more";
+        } else {
+            dots.classList.add("hidden");
+            moreText.classList.remove("hidden");
+            button.innerHTML = "Kembalikan";
+        }
+    }
+</script>
+
+</html>
